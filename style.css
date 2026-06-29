@@ -1224,4 +1224,15 @@ height:36px;
     background-position: top!important;
     background-attachment: local!important;
 }
-
+.hero.blogsinglebrd {
+    padding:0;
+    min-height: 120px;
+    margin-top: -120px;
+    overflow: hidden;
+    background: url('images/img/headbgtyp.jpeg');
+}
+.hero.blogsinglebrd::before {
+    background:
+        none!important;
+    pointer-events: none;
+}
