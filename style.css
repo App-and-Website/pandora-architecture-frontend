@@ -1236,3 +1236,36 @@ height:36px;
         none!important;
     pointer-events: none;
 }
+
+.sidebar-cta-contact-item a{
+    color: #222;
+}
+.sidebar-cta-contact-item .icon-box {
+    background-color: #222;
+    color: #f3f5f7!important;
+}
+.sidebar-cta-contact-item .icon-box img {
+    filter: brightness(0) invert(1) contrast(200%);
+    opacity: 1;
+}
+.posts_list ul li a::before {
+    display: none;
+}
+.imglft img{
+    height: 75px;
+    width: 100px;
+    border-radius: 5px;
+}
+.posts_list ul li a {
+    padding-right: 0px;
+    font-size: 16px;
+    line-height: 22px;
+}
+.posts_list ul li{
+    display: grid;
+    grid-template-columns: 100px auto;
+    align-items: center;
+    gap: 10px;
+}
+
+
