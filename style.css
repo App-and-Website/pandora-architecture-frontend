@@ -1269,3 +1269,208 @@ height:36px;
 }
 
 
+.pandora-thankyou-section{
+   position:relative;
+   overflow:hidden;
+   background:#111;
+   padding:120px 20px;
+}
+
+.pandora-thankyou-bg{
+   position:absolute;
+   inset:0;
+   background:
+   linear-gradient(rgba(17,17,17,.82),rgba(17,17,17,.92)),
+   url(images/hero.jpg) center/cover;
+}
+
+.pandora-thankyou-bg:before{
+   content:"";
+   position:absolute;
+   inset:0;
+   opacity:.08;
+   background-image:
+   linear-gradient(#fff 1px,transparent 1px),
+   linear-gradient(90deg,#fff 1px,transparent 1px);
+   background-size:70px 70px;
+}
+
+.pandora-thankyou-container{
+   position:relative;
+   max-width:850px;
+   margin:auto;
+   text-align:center;
+   z-index:2;
+}
+
+.pandora-check-circle{
+   width:105px;
+   height:105px;
+   margin:auto;
+   margin-bottom:30px;
+}
+
+.pandora-check-circle svg{
+   width:100%;
+   height:100%;
+}
+
+.pandora-check-circle circle{
+   stroke:#c6a56b;
+   stroke-width:2;
+   fill:rgba(198,165,107,.08);
+}
+
+.pandora-check-circle path{
+   stroke:#fff;
+   stroke-width:4;
+   stroke-linecap:round;
+   stroke-linejoin:round;
+}
+
+.pandora-tagline{
+   display:inline-block;
+   padding:8px 18px;
+   border:1px solid rgba(198,165,107,.35);
+   color:#c6a56b;
+   border-radius:40px;
+   letter-spacing:1px;
+   font-size:13px;
+   text-transform:uppercase;
+   margin-bottom:22px;
+}
+
+.pandora-thankyou-container h1{
+   font-size:58px;
+   color:#fff;
+   font-weight:700;
+   margin-bottom:10px;
+}
+
+.pandora-thankyou-container h2{
+   font-size:28px;
+   color:#fff;
+   font-weight:500;
+   margin-bottom:25px;
+}
+
+.pandora-thankyou-container p{
+   max-width:700px;
+   margin:auto;
+   color:#d7d7d7;
+   font-size:17px;
+   line-height:1.8;
+}
+
+.pandora-info-box{
+   margin:55px auto 45px;
+   display:grid;
+   grid-template-columns:repeat(2,1fr);
+   gap:25px;
+}
+
+.pandora-info-item{
+   background:rgba(255,255,255,.05);
+   backdrop-filter:blur(8px);
+   border:1px solid rgba(255,255,255,.08);
+   border-radius:16px;
+   padding:28px;
+   display:flex;
+   gap:18px;
+   text-align:left;
+}
+
+.pandora-info-item span{
+   width:42px;
+   height:42px;
+   min-width:42px;
+   border-radius:50%;
+   background:#c6a56b;
+   color:#111;
+   display:flex;
+   justify-content:center;
+   align-items:center;
+   font-weight:700;
+   font-size:18px;
+}
+
+.pandora-info-item h4{
+   color:#fff;
+   margin-bottom:8px;
+   font-size:18px;
+}
+
+.pandora-info-item p{
+   margin:0;
+   color:#bbb;
+   font-size:15px;
+   line-height:1.6;
+}
+
+.pandora-btn-group{
+   display:flex;
+   justify-content:center;
+   gap:18px;
+   flex-wrap:wrap;
+}
+
+.pandora-btn-group a{
+   text-decoration:none;
+   padding:16px 34px;
+   border-radius:40px;
+   transition:.35s;
+   font-weight:600;
+}
+
+.pandora-btn-dark{
+   background:#c6a56b;
+   color:#111;
+}
+
+.pandora-btn-dark:hover{
+   transform:translateY(-4px);
+}
+
+.pandora-btn-light{
+   color:#fff;
+   border:1px solid rgba(255,255,255,.2);
+   background:rgba(255,255,255,.04);
+}
+
+.pandora-btn-light:hover{
+   background:#fff;
+   color:#111;
+}
+
+@media(max-width:768px){
+
+.pandora-thankyou-section{
+   padding:90px 20px;
+}
+
+.pandora-thankyou-container h1{
+   font-size:42px;
+}
+
+.pandora-thankyou-container h2{
+   font-size:22px;
+}
+
+.pandora-info-box{
+   grid-template-columns:1fr;
+}
+
+.pandora-btn-group{
+   flex-direction:column;
+}
+
+.pandora-btn-group a{
+   width:100%;
+}
+
+.pandora-thankyou-container p{
+   font-size:16px;
+}
+
+}
+
