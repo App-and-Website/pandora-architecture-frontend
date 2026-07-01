@@ -2026,3 +2026,246 @@ padding:55px;
 
 }
 
+.servicehero .hero_row{
+  margin-top: 50px;
+}
+
+.imgcustom img{
+    border: 4px solid #fff;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.work_process{
+    background: linear-gradient(rgba(17,17,17,.9),rgba(17,17,17,.9)), url('images/img/section-shape-1.jpg') center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.secontentprocess{
+    margin-left: 0px;
+}
+.icontext{
+    background: #fff;
+    color: #000;
+    width: fit-content;
+    padding: 2px 16px;
+    font-weight: 600;
+    border-radius: 25px;
+}
+.how-we-work-item{
+    box-shadow: rgba(99, 99, 99, 0.5) 0px 2px 8px 0px;
+    padding: 20px 14px;
+    border-radius: 5px;
+}
+.how-we-work-item .icon-box {
+    margin-bottom: 20px;
+}
+.how-we-work-list {
+    gap: 20px;
+}
+@media screen and (min-width: 992px) {
+    .section-row {
+        margin-bottom: 20px;
+    }
+}
+
+
+
+.pa-why-section{
+   background:#fff;
+}
+
+.pa-container{
+   max-width:1320px;
+   margin:auto;
+   border-top: 1px solid #ccc;
+   padding: 50px 0;
+}
+
+.pa-heading{
+   max-width:760px;
+   margin:0 auto 60px;
+   text-align:center;
+}
+
+.pa-subtitle{
+   display:inline-block;
+   padding:8px 18px;
+   border-radius:50px;
+   background:#eef5ff;
+   color:#0b67d4;
+   font-size:14px;
+   font-weight:600;
+   letter-spacing:.5px;
+   margin-bottom:18px;
+}
+
+.pa-heading h2{
+   margin:0 0 20px;
+   font-size:44px;
+   line-height:1.2;
+   color:#111;
+   font-weight:700;
+}
+
+.pa-heading h2 span{
+   color:#0b67d4;
+}
+
+.pa-heading p{
+   margin:0;
+   color:#666;
+   font-size:17px;
+   line-height:1.8;
+}
+
+.pa-grid{
+   display:grid;
+   grid-template-columns:repeat(3,1fr);
+   gap:30px;
+}
+
+.pa-card{
+   position:relative;
+   padding:35px;
+   border-radius:24px;
+   background:#fff;
+   overflow:hidden;
+   transition:.45s ease;
+   z-index:1;
+}
+
+/* Gradient Border */
+.pa-card::before{
+   content:"";
+   position:absolute;
+   inset:0;
+   padding:1.5px;
+   border-radius:24px;
+   background:linear-gradient(135deg,#111827,#374151,#0f172a,#4b5563);
+   -webkit-mask:
+      linear-gradient(#fff 0 0) content-box,
+      linear-gradient(#fff 0 0);
+   -webkit-mask-composite:xor;
+   mask-composite:exclude;
+   pointer-events:none;
+   transition:.45s;
+}
+
+/* White Background */
+.pa-card::after{
+   content:"";
+   position:absolute;
+   inset:2px;
+   border-radius:22px;
+   background:#fff;
+   z-index:-1;
+}
+
+.pa-card:hover{
+   transform:translateY(-10px);
+   box-shadow:
+      0 30px 60px rgba(0,0,0,.12),
+      0 10px 25px rgba(17,24,39,.08);
+}
+
+.pa-card:hover::before{
+   background:linear-gradient(135deg,#000,#374151,#0b67d4,#111827,#000);
+}
+
+.pa-icon{
+   width:74px;
+   height:74px;
+   border-radius:20px;
+   display:flex;
+   align-items:center;
+   justify-content:center;
+   background:linear-gradient(135deg,#0b67d4,#35b8ff);
+   margin-bottom:28px;
+   transition:.35s;
+   box-shadow:0 15px 35px rgba(11,103,212,.25);
+}
+
+.pa-card:hover .pa-icon{
+   transform:rotate(-8deg) scale(1.08);
+}
+
+.pa-icon svg{
+   width:34px;
+   height:34px;
+   stroke:#fff;
+   stroke-width:1.8;
+   stroke-linecap:round;
+   stroke-linejoin:round;
+   fill:none;
+}
+
+.pa-card h3{
+   margin:0 0 16px;
+   color:#111;
+   font-size:24px;
+   line-height:1.3;
+}
+
+.pa-card p{
+   margin:0;
+   color:#666;
+   font-size:16px;
+   line-height:1.8;
+}
+
+@media(max-width:1100px){
+
+   .pa-grid{
+      grid-template-columns:repeat(2,1fr);
+   }
+
+   .pa-heading h2{
+      font-size:38px;
+   }
+
+}
+
+@media(max-width:767px){
+
+   .pa-grid{
+      grid-template-columns:1fr;
+      gap:22px;
+   }
+
+   .pa-card{
+      padding:30px;
+   }
+
+   .pa-heading{
+      margin-bottom:45px;
+   }
+
+   .pa-heading h2{
+      font-size:30px;
+   }
+
+   .pa-heading p{
+      font-size:16px;
+   }
+
+   .pa-card h3{
+      font-size:21px;
+   }
+
+}
+
+.headsecman{
+    display: flex;
+    justify-content: center;
+}
+.headsec-wrap{
+    max-width: 800px;
+}
+
+.sccsecserv{
+    background: linear-gradient(rgba(0, 0, 0, .2), rgba(255, 255, 255, .5)), url(images/img/acbg.png) center center / cover no-repeat;
+    opacity: 1;
+}
+
+
